@@ -1,0 +1,27 @@
+{
+	"manifest_version": 2,
+
+	"name": "Photocopier",
+    "short_name": "Photocopier",
+	"description": "Browse the web with a broken photocopier.",
+	"author": "Kjell Reigstad",
+	"version": "1.0",
+
+	"icons": {
+		"16": "icon16.png",
+		"32": "icon32.png",
+		"48": "icon48.png",
+		"128": "icon128.png"
+	},
+
+	"content_scripts":
+	[
+		{
+			"matches": ["*://*/*"],
+			"all_frames": true,
+			"js": ["jquery-3.5.1.min.js", "content_script.js"],
+			"css": ["content_style.css"],
+			"run_at": "document_start"
+		}
+	]
+}
