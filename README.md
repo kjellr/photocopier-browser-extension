@@ -1,6 +1,8 @@
 # Photocopier Browser Extension
 
-A browser extension that roughly emulates the output of a hopelessly broken photocopier. Available for Chrome & Firefox. 
+A browser extension that roughly emulates the output of a hopelessly broken photocopier. 
+ 
+Available for Chrome & [Firefox](https://addons.mozilla.org/en-US/firefox/addon/photocopier/). 
 
 ![](https://cldup.com/qe7sO_zcNK.png)
 
